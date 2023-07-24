@@ -22,13 +22,19 @@ public class NotTwo {
         // 문제
         Question question = new Question();
 //        question.init(0);
-        question.init(1);
-//        question.init(2);
+//        question.init(1);
+        question.init(2);
 
-        MySolution.countStone(question.getWidth(), question.getHeight());
+        MySolution.maxStones(question.getWidth(), question.getHeight());
+
+        Solution.maxStones(question.getWidth(), question.getHeight());
 
     }
 
-
+    public static void printResult(int res){
+        System.out.println("=========================");
+        System.out.println("놓을 수 있는 돌 수 : " + res);
+        System.out.println("=========================");
+    }
 
 }

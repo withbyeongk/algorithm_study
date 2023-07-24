@@ -15,40 +15,20 @@ package org.example.week1.notTwo;
     height : 1~1000
 
  */
-public class notTwo {
+public class NotTwo {
     public static void main(String[] args) {
 
         // 그냥 풀기
         // 문제
         Question question = new Question();
-        question.init(0);
-//        question.init(1);
+//        question.init(0);
+        question.init(1);
 //        question.init(2);
 
-        int width = question.getWidth();
-        int height = question.getHeight();
+        MySolution.countStone(question.getWidth(), question.getHeight());
 
-        // (x,y) 좌표로 존재할 수 있는 총 개수
-        int total = width * height;
-
-        // 거리가 2가 되면 빼
-        int distance = 2;
-        int remove = removeDistance(width, height, distance);
-
-        // 나머지 수
-        int result = total - remove;
     }
 
-    private static int removeDistance(int width, int height, int distance) {
-        int remove = 0;
 
-        for (int i = 0; i < width; i++) {
-            int t = i%4;
-            if (t == 0){
 
-            }
-        }
-
-        return remove;
-    }
 }

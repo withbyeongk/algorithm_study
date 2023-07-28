@@ -22,15 +22,12 @@ package org.example.week2.badNeighbors;
 
 public class BadNeighbors {
     public static void main(String[] args) {
-        maxDonations(new int[]{});
 
+        Question question = new Question();
 
-    }
-
-    public static int maxDonations(int[] donations){
-
-
-
-        return 0;
+        for (int i = 0; i < 4; i++) {
+            int result = Solution.maxDonations(question.init(i));
+            question.printResult(result);
+        }
     }
 }

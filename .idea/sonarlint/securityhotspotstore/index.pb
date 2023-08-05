@@ -36,3 +36,7 @@ f
 6src/main/java/org/example/week1/notTwo/MySolution.java,8\0\8042bee36f90b8c33a9a1155742e62b0149da56a
 d
 4src/main/java/org/example/week1/notTwo/Solution.java,0\5\05f3b22ab314373f09cdb1b73bdd437374fb862f
+j
+:src/main/java/org/example/week2/badNeighbors/Question.java,9\0\90689287d2f2f8b38d3b7014584026496f16d0e5
+s
+Csrc/main/java/org/example/week2/colorfulBoxesAndBalls/Solution.java,6\c\6cb226eef93fafbd27214fb9195fb2c40a7de424

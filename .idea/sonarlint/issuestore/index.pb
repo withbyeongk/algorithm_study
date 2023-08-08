@@ -48,9 +48,5 @@ n
 >src/main/java/org/example/week2/badNeighbors/BadNeighbors.java,1\2\120955b16ac19fd96f30687f99a4cf082c263c87
 €
 Psrc/main/java/org/example/week2/colorfulBoxesAndBalls/ColorfulBoxesAndBalls.java,f\2\f233da89606613f8bc0255f092b9d7e74609bf22
-t
-Dsrc/main/java/org/example/week3/numberMagicEasy/NumberMagicEasy.java,e\1\e19fa9d0a4619a202f1de259a2191eab37d8b31e
 l
 <src/main/java/org/example/week3/circlesCountry/Question.java,4\5\45d4ed791c20e5d603a70b9c175d4307ba1a52b3
-r
-Bsrc/main/java/org/example/week3/circlesCountry/CirclesCountry.java,c\2\c271bc1599ce454505db59743c7dba532756538d

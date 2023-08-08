@@ -23,11 +23,11 @@ public class NumberMagicEasy {
         for (int i = 0; i < 4; i++) {
             int response = isExisted(i);
             if (response == 1) {
-                System.out.printf("%d번째 카드의 대답은? Y\n", i+1);
+                System.out.printf("%d번째 카드의 대답은? Y%n", i+1);
                 result |= (1 << (3-i));
                 System.out.println("result : " + result);
             } else if (response == 0) {
-                System.out.printf("%d번째 카드의 대답은? N\r\n", i+1);
+                System.out.printf("%d번째 카드의 대답은? N\r%n", i+1);
                 result &= ~(1 << (3-i));
                 System.out.println("result : " + result);
             }
@@ -36,7 +36,7 @@ public class NumberMagicEasy {
     }
 
     private static int isExisted(int i){
-        System.out.printf("%d 번째 카드에 있나요?\r\n", i+1);
+        System.out.printf("%d 번째 카드에 있나요?\r%n", i+1);
         String input = scanner.nextLine();
 
         if (input == null || "".equals(input)) {

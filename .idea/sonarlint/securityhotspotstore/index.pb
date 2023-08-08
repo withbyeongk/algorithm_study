@@ -48,9 +48,5 @@ j
 :src/main/java/org/example/week2/badNeighbors/Solution.java,4\2\42c554760298cd19cfbd8d7431c9f297cce6debd
 s
 Csrc/main/java/org/example/week2/colorfulBoxesAndBalls/Question.java,d\8\d8221f3da844d45787187e621ea39a187c3c598f
-r
-Bsrc/main/java/org/example/week3/circlesCountry/CirclesCountry.java,c\2\c271bc1599ce454505db59743c7dba532756538d
 l
 <src/main/java/org/example/week3/circlesCountry/Question.java,4\5\45d4ed791c20e5d603a70b9c175d4307ba1a52b3
-t
-Dsrc/main/java/org/example/week3/numberMagicEasy/NumberMagicEasy.java,e\1\e19fa9d0a4619a202f1de259a2191eab37d8b31e
